@@ -88,6 +88,7 @@ h1 {
     border: 2px solid #16b666;
     padding: 25px;
     border-radius: 10px;
+    
 }
 
 
@@ -247,7 +248,7 @@ EXTRAS
    CONTAINER PRINCIPAL
 =========================== */
 .profile-container {
-    max-width: 850px;
+    max-width: 700px;
     margin: 0 auto;
     padding-top: 20px;
 }
@@ -272,6 +273,7 @@ EXTRAS
     margin: 0 auto 40px auto;
     box-shadow: 0 0 20px #16b66680;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
 }
 
 .trainer-card:hover {
@@ -308,11 +310,12 @@ EXTRAS
    GRID DE POKÉMON (TIME + BOX)
 =========================== */
 .pokemon-row {
-    display: flex;
-    flex-wrap: wrap;        /* permite múltiplas linhas */
-    justify-content: flex-start; /* ou center se quiser centralizado */
-    gap: 20px;              /* espaçamento entre cards */
     padding: 10px 0;
+        display: flex; /* Define o container como flexbox */
+    justify-content: center; /* Centraliza os quadrados na linha (opcional) */
+    gap: 10px; /* Adiciona espaço entre os quadrados */
+    width: 100%;
+    
 }
 
 /* CARD DE CADA POKÉMON */
